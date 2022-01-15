@@ -127,7 +127,7 @@ main #popular-collection-sec .popular-collection .cards .card{
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 main #popular-collection-sec .popular-collection .cards .card h3{
@@ -145,4 +145,71 @@ main #popular-collection-sec .popular-collection .cards .card .rating i{
 
 main #popular-collection-sec .popular-collection .cards .card .rating span{
     margin: 0 5px;
+}
+
+/* extra section design */
+main #extra-sec .flex-design{
+    margin: 80px 0;
+}
+
+main #extra-sec .flex-design .width-65{
+    
+}
+
+main #extra-sec .flex-design .width-65 h1{
+    font-size: 37px;
+}
+
+main #extra-sec .flex-design .width-65 p{
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+main #extra-sec .flex-design .width-65 button{
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background: #E02C6D;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+main #extra-sec .flex-design .width-65 button i{
+    margin: 0 5px;
+}
+
+/* footer design */
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer .heading, .paragraph{
+    color: #fff;
+    margin: 10px;
+}
+
+footer i{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 7px;
+}
+
+footer .ln{
+    background-color: #fff;
+    color: #0077B5;
+}
+
+footer .tw{
+    background-color: #fff;
+    color: #5DA9DD;
+}
+
+footer .yt{
+    background-color: #fff;
+    color: #FE0000;
 }
