@@ -158,9 +158,9 @@ main #extra-sec .extra h1 {
 }
 
 main #extra-sec .extra .contact {
-  font-size: 15px;
+  font-size: 18px;
   color: #3a3a3a;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 main #extra-sec .extra .contact i,
