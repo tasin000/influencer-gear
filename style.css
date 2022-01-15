@@ -147,7 +147,8 @@ main #popular-collection-sec .popular-collection .cards .card .rating span {
 main #extra-sec .extra {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 50px;
 }
 
