@@ -108,7 +108,7 @@ main #client-sec .clients {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 20px 30px;
 }
 
@@ -169,6 +169,7 @@ main #extra-sec .flex-design .width-65 button {
   background: #e02c6d;
   border-radius: 5px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 main #extra-sec .flex-design .width-65 button i {
@@ -214,8 +215,12 @@ footer .yt {
 
 /* 992px and less */
 @media screen and (max-width: 992px){
-    .width-35, .width-65{
+    .width-35{
         width: 100%;
+    }
+
+    .width-65{
+        width: 90%;
     }
 
     header #navigation .nav-bar nav{
@@ -247,14 +252,24 @@ footer .yt {
         align-items: center;
     }
 
-    main #client-sec .clients{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        
+    main #featured-sec .featured .width-65 h1{
+        text-align: center;
     }
 
-    main #client-sec .clients img{
-        margin: 10px 0;
+    main #featured-sec .featured .width-65 p{
+        text-align: center;
+    }
+
+    main #featured-sec .featured .width-65 h1{
+        font-size: 2.2em;
+    }
+
+    main #featured-sec .featured .width-65 p{
+        font-size: 1.1em;
+    }
+
+    main #client-sec .clients{
+        display: none; 
     }
 
     main #popular-collection-sec .popular-collection .cards{
@@ -276,7 +291,10 @@ footer .yt {
     main #extra-sec .flex-design .width-35 img{
         display: block;
         margin: 10px auto;
+    }
 
+    hr{
+        display: none;
     }
 }
 
@@ -284,6 +302,10 @@ footer .yt {
 @media screen and (max-width: 750px){
     header #navigation .nav-bar nav .nav-links{
         display: none;
+    }
+
+    .width-65{
+        width: 100%;
     }
 
     main #featured-sec .featured h1{
@@ -295,13 +317,21 @@ footer .yt {
         text-align: center;
     }
 
+    main #featured-sec .featured .width-65 h1{
+        font-size: 2em;
+    }
+
+    main #featured-sec .featured .width-65 p{
+        font-size: 1em;
+    }
+
     main #popular-collection-sec .popular-collection .cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
     }
 
-    main #client-sec .clients{
-        margin: auto;
-        grid-gap: 15px;
+    main #popular-collection-sec .popular-collection .cards .card{
+        transform: scale(1.1);
     }
 }
