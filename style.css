@@ -92,8 +92,8 @@ main #featured-sec .featured button span {
 }
 
 main #featured-sec .featured img {
-  width: 440px;
-  height: 414px;
+  width: 90%;
+  height: auto;
   display: block;
   margin: -40px auto;
 }
@@ -147,8 +147,7 @@ main #popular-collection-sec .popular-collection .cards .card .rating span {
 main #extra-sec .extra {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   margin: 50px;
 }
 
