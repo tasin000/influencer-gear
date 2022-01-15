@@ -19,16 +19,11 @@ html {
   margin: 0 auto;
 }
 
-.flex-design {
-  display: flex;
-  flex-direction: row;
-}
-
-.width-65 {
+.width-55 {
   width: 55%;
 }
 
-.width-35 {
+.width-45 {
   width: 45%;
 }
 
@@ -211,11 +206,11 @@ footer .yt {
 
 /* 992px and less */
 @media screen and (max-width: 992px) {
-  .width-35 {
+  .width-45 {
     width: 100%;
   }
 
-  .width-65 {
+  .width-55 {
     width: 90%;
   }
 
@@ -241,26 +236,26 @@ footer .yt {
     margin-bottom: 10px;
   }
 
-  main #featured-sec .featured .width-65 {
+  main #featured-sec .featured .width-55 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  main #featured-sec .featured .width-65 h1 {
+  main #featured-sec .featured .width-55 h1 {
     text-align: center;
   }
 
-  main #featured-sec .featured .width-65 p {
+  main #featured-sec .featured .width-55 p {
     text-align: center;
   }
 
-  main #featured-sec .featured .width-65 h1 {
+  main #featured-sec .featured .width-55 h1 {
     font-size: 2.2em;
   }
 
-  main #featured-sec .featured .width-65 p {
+  main #featured-sec .featured .width-55 p {
     font-size: 1.1em;
   }
 
@@ -280,11 +275,11 @@ footer .yt {
     align-items: center;
   }
 
-  main #extra-sec .flex-design .width-65 {
+  main #extra-sec .flex-design .width-55 {
     text-align: center;
   }
 
-  main #extra-sec .flex-design .width-35 img {
+  main #extra-sec .flex-design .width-45 img {
     display: block;
     margin: 10px auto;
   }
@@ -300,7 +295,7 @@ footer .yt {
     display: none;
   }
 
-  .width-65 {
+  .width-55 {
     width: 100%;
   }
 
@@ -313,11 +308,11 @@ footer .yt {
     text-align: center;
   }
 
-  main #featured-sec .featured .width-65 h1 {
+  main #featured-sec .featured .width-55 h1 {
     font-size: 2em;
   }
 
-  main #featured-sec .featured .width-65 p {
+  main #featured-sec .featured .width-55 p {
     font-size: 1em;
   }
 
