@@ -32,6 +32,11 @@ html{
     width: 45%;
 }
 
+hr{
+    width: 100%;
+    opacity: 0.5;
+}
+
 /* navigation bar design */
 header #navigation .nav-bar{
     margin: 40px 0;
@@ -91,13 +96,53 @@ main #featured-sec .featured button span{
     margin: 0 5px;
 }
 
-main #featured-sec .featured .image{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 main #featured-sec .featured img{
     width: 440px;
     height: 414px;
+    display: block;
+    margin: -40px auto;
+}
+
+/* client section design */
+main #client-sec .clients{
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+/* popular collection design */
+main #popular-collection-sec .popular-collection h1{
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+main #popular-collection-sec .popular-collection .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main #popular-collection-sec .popular-collection .cards .card{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+main #popular-collection-sec .popular-collection .cards .card h3{
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+main #popular-collection-sec .popular-collection .cards .card .icons{
+    font-size: 10px;
+}
+
+main #popular-collection-sec .popular-collection .cards .card .rating i{
+    color: orange;
+}
+
+main #popular-collection-sec .popular-collection .cards .card .rating span{
+    margin: 0 5px;
 }
